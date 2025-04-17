@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibetan Dictionary</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Tibetan Dictionary</h1>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="lesson-list" id="lessonList">
+                <!-- 课程列表将由JavaScript动态生成 -->
+            </div>
+            <div class="word-list" id="wordList">
+                <!-- 单词列表将由JavaScript动态生成 -->
+            </div>
+        </div>
+        <div class="content">
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Search in Tibetan or other languages">
+                    <div id="searchSuggestions" class="search-suggestions"></div>
+                </div>
+                <button id="searchButton">Search</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
